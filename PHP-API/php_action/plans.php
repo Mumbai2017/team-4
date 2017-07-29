@@ -76,7 +76,7 @@ $plan_in_db = $connect->query($plan);
                         ?>
                         <ul class="list-group">
                             <div class="plan">
-                                <li class="list-group-item" id="<?php echo $row['id']?>"><blockquote><p><?php echo $my_row['name']; ?></p><button class="btn btn-default" type="button" style="color:#eb3b60;background-image:url(&quot;none&quot;);background-color:transparent;"><span>View Document</span></button></blockquote>
+                                <li class="list-group-item" id="<?php echo $row['id']?>"><blockquote><p><?php echo $my_row['name']; ?></p><button class="btn btn-default" type="button" style="color:#eb3b60;background-image:url(&quot;none&quot;);background-color:transparent;" data-toggle="modal" data-target="#viewDocs" onclick="viewDoc(<?php echo $row['id'];?>);"><span>View Document</span></button></blockquote>
                                     <button class="btn btn-default" type="button" style="color:#eb3b60;background-image:url(&quot;none&quot;);background-color:transparent;" > <i class="glyphicon glyphicon-heart" data-aos="flip-right"></i><span>Approve</span></button>
                                     <button class="btn btn-default comment" type="button" style="color:#eb3b60;background-image:url(&quot;none&quot;);background-color:transparent;"><i class="glyphicon glyphicon-flash" style="color:#f9d616;"></i><span style="color:#f9d616;">Chat</span></button>
                                 </li>
@@ -92,6 +92,25 @@ $plan_in_db = $connect->query($plan);
         ?>
     </div>
 </div>
-<script src="../custom/js/plans.js"></script>
+
+<div class="modal fade" id="viewDocs" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Document of Teacher</h4>
+            </div>
+            <div class="modal-body">
+                <div id="images">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./custom/js/plans.js"></script>
 </body>
 </html>
