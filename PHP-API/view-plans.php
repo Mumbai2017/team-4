@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -122,6 +126,10 @@
 </html>
 
 
+<?php
 
+echo $_SESSION['user_id'];
+
+?>
 
 
