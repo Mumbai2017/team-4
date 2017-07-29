@@ -1,4 +1,4 @@
-<?php
+ <?php 
 /**
  * Created by PhpStorm.
  * User: Sumeet
@@ -6,7 +6,7 @@
  * Time: 19:12
  */
 
-$localhost = "127.0.0.1";
+$localhost = 'localhost';
 $username = "root";
 $password = "";
 $dbname = "cfg_project";
@@ -19,3 +19,6 @@ if($connect->connect_error) {
     // echo "Successfully connected";
 }
 ?>
+
+
+
