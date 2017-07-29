@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c89b4f-3850-499a-aa60-73ec1666982a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP-API/php_action/updateStatus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP-API/custom/images/whatsapp_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP-API/custom/js/otp-generate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP-API/otp-verify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP-API/otp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP-API/php_action/otp-generate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP-API/php_action/otpVerify.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP-API/custom/js/plans.js" afterPath="$PROJECT_DIR$/PHP-API/custom/js/plans.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP-API/index.php" afterPath="$PROJECT_DIR$/PHP-API/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP-API/php_action/plans.php" afterPath="$PROJECT_DIR$/PHP-API/php_action/plans.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,48 +22,57 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="plans.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP-API/php_action/plans.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP-API/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="79" column="212" lean-forward="false" selection-start-line="79" selection-start-column="208" selection-end-line="79" selection-end-column="212" />
+            <state relative-caret-position="388">
+              <caret line="73" column="76" lean-forward="false" selection-start-line="73" selection-start-column="76" selection-end-line="73" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="otp-generate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP-API/custom/js/otp-generate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="otp-generate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHP-API/php_action/otp-generate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="69" column="173" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="173" />
               <folding>
-                <marker date="1501348649833" expanded="true" signature="128:164" ph="SELECT DISTI... subject" />
-                <marker date="1501348649833" expanded="true" signature="221:239" ph="SELECT * FRO... plan" />
-                <marker date="1501348649833" expanded="true" signature="2006:2035" ph="SELECT * FRO... users" />
+                <marker date="1501359664001" expanded="true" signature="182:224" ph="SELECT * FRO... users" />
+                <marker date="1501359664001" expanded="true" signature="413:492" ph="INSERT INTO otp... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plans.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP-API/custom/js/plans.js">
+      <file leaf-file-name="otp-verify.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP-API/otp-verify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="563">
+              <caret line="77" column="76" lean-forward="true" selection-start-line="77" selection-start-column="76" selection-end-line="77" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP-API/dashboard.php">
+      <file leaf-file-name="otpVerify.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP-API/php_action/otpVerify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="106" column="20" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateStatus.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP-API/php_action/updateStatus.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="658">
+              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
               <folding>
-                <marker date="1501348496905" expanded="true" signature="72:117" ph="UPDATE plan " />
-                <marker date="1501348496905" expanded="true" signature="116:117" ph="SELECT * FRO... plan" />
+                <marker date="1501360030797" expanded="true" signature="191:234" ph="SELECT * FRO... otp" />
+                <marker date="1501360030797" expanded="true" signature="445:485" ph="SELECT * FRO... USERS" />
               </folding>
             </state>
           </provider>
@@ -100,8 +114,20 @@
         <option value="$PROJECT_DIR$/PHP-API/dashboard.php" />
         <option value="$PROJECT_DIR$/PHP-API/php_action/fetchDocuments.php" />
         <option value="$PROJECT_DIR$/PHP-API/php_action/updateStatus.php" />
-        <option value="$PROJECT_DIR$/PHP-API/php_action/plans.php" />
         <option value="$PROJECT_DIR$/PHP-API/custom/js/plans.js" />
+        <option value="$PROJECT_DIR$/PHP-API/php_action/DisplayMessages.php" />
+        <option value="$PROJECT_DIR$/PHP-API/php_action/class-db.php" />
+        <option value="$PROJECT_DIR$/PHP-API/php_action/classes.php" />
+        <option value="$PROJECT_DIR$/PHP-API/php_action/InsertMessage.php" />
+        <option value="$PROJECT_DIR$/PHP-API/php_action/chatUi.php" />
+        <option value="$PROJECT_DIR$/PHP-API/php_action/plans.php" />
+        <option value="$PROJECT_DIR$/PHP-API/otp.php" />
+        <option value="$PROJECT_DIR$/PHP-API/custom/js/otp-generate.js" />
+        <option value="$PROJECT_DIR$/PHP-API/php_action/otp-verify.php" />
+        <option value="$PROJECT_DIR$/PHP-API/otp-verify.php" />
+        <option value="$PROJECT_DIR$/PHP-API/index.php" />
+        <option value="$PROJECT_DIR$/PHP-API/php_action/otp-generate.php" />
+        <option value="$PROJECT_DIR$/PHP-API/php_action/otpVerify.php" />
       </list>
     </option>
   </component>
@@ -160,64 +186,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team-4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team-4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP-API" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_action" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team-4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team-4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP-API" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team-4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="team-4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP-API" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -225,11 +193,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../delivery_boy" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\team-4\team-4\PHP-API" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\team-4\team-4\PHP-API\custom\images" />
       <recent name="C:\xampp\htdocs\Ceque\team-4\PHP-API" />
     </key>
   </component>
@@ -327,12 +299,12 @@
       <workItem from="1501321038662" duration="1205000" />
       <workItem from="1501325886899" duration="6687000" />
       <workItem from="1501339769612" duration="516000" />
-      <workItem from="1501345281213" duration="3511000" />
+      <workItem from="1501345281213" duration="11574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11919000" />
+    <option name="totallyTimeSpent" value="19982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -366,7 +338,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -394,9 +366,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501348649833" expanded="true" signature="128:164" ph="SELECT DISTI... subject" />
-            <marker date="1501348649833" expanded="true" signature="221:239" ph="SELECT * FRO... plan" />
-            <marker date="1501348649833" expanded="true" signature="2006:2035" ph="SELECT * FRO... users" />
+            <marker date="1501357240969" expanded="true" signature="128:164" ph="SELECT DISTI... subject" />
+            <marker date="1501357240969" expanded="true" signature="221:239" ph="SELECT * FRO... plan" />
+            <marker date="1501357240969" expanded="true" signature="2008:2037" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -518,14 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-API/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP-API/php_action/fetchDocuments.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -555,23 +519,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/plans.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="79" column="212" lean-forward="false" selection-start-line="79" selection-start-column="208" selection-end-line="79" selection-end-column="212" />
-          <folding>
-            <marker date="1501348649833" expanded="true" signature="128:164" ph="SELECT DISTI... subject" />
-            <marker date="1501348649833" expanded="true" signature="221:239" ph="SELECT * FRO... plan" />
-            <marker date="1501348649833" expanded="true" signature="2006:2035" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP-API/custom/js/plans.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/chatt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/DisplayMessages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/class-db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="61" column="80" lean-forward="false" selection-start-line="61" selection-start-column="80" selection-end-line="61" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/InsertMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/chatUi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-377">
+          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/plans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="82" column="46" lean-forward="true" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+          <folding>
+            <marker date="1501357240969" expanded="true" signature="128:164" ph="SELECT DISTI... subject" />
+            <marker date="1501357240969" expanded="true" signature="221:239" ph="SELECT * FRO... plan" />
+            <marker date="1501357240969" expanded="true" signature="2008:2037" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/otp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/custom/js/otp-generate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="73" column="76" lean-forward="false" selection-start-line="73" selection-start-column="76" selection-end-line="73" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/otpVerify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <marker date="1501360030797" expanded="true" signature="191:234" ph="SELECT * FRO... otp" />
+            <marker date="1501360030797" expanded="true" signature="445:485" ph="SELECT * FRO... USERS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/otp-verify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="77" column="76" lean-forward="true" selection-start-line="77" selection-start-column="76" selection-end-line="77" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-API/php_action/otp-generate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="69" column="173" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="173" />
+          <folding>
+            <marker date="1501359664001" expanded="true" signature="182:224" ph="SELECT * FRO... users" />
+            <marker date="1501359664001" expanded="true" signature="413:492" ph="INSERT INTO otp... " />
+          </folding>
         </state>
       </provider>
     </entry>

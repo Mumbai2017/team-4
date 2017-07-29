@@ -1,6 +1,10 @@
 <?php
-session_start();
-require_once 'php_action/db_connect.php';
+/**
+ * Created by PhpStorm.
+ * User: Sumeet
+ * Date: 20-07-2017
+ * Time: 20:29
+ */
 
 ?>
 <!DOCTYPE html>
@@ -71,13 +75,13 @@ require_once 'php_action/db_connect.php';
 
     </div>
     <div class="col-lg-4">
-        <form class="form-horizontal" id="otpForm" action="php_action/otp-generate.php" method="POST">
+        <form class="form-horizontal" id="otpForm" action="php_action/otpVerify.php" method="POST">
             <div class="form-group">
-                <label for="otp" class="control-label">Mobile Number: </label>
-                <input type="text" class="form-control" id="otp" name="otp" placeholder="Enter the Mobile Number">
+                <label for="otp" class="control-label">Enter the OTP: </label>
+                <input type="text" class="form-control" id="verify_otp" name="verify_otp" placeholder="Enter the OTP">
             </div>
 
-            <button type="submit" class="btn btn-success" id="submitNumber" data-loading-text="Loading..." autocomplete="off"> <i class="glyphicon glyphicon-ok-sign"></i> Submit </button>
+            <button type="submit" class="btn btn-success" id="submitOTP" data-loading-text="Loading..." autocomplete="off"> <i class="glyphicon glyphicon-ok-sign"></i> Submit </button>
         </form>
     </div>
     <div class="col-lg-4">
