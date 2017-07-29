@@ -18,7 +18,7 @@ public class chat extends AppCompatActivity {
     ImageView sendButton;
     EditText messageArea;
     ScrollView scrollView;
-    Firebase reference1, reference2;
+    //Firebase reference1, reference2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
