@@ -103,17 +103,13 @@
             <div id="home" class="tab-pane fade">
                 <h1>I am Dashboard</h1>
             </div>
-            <div id="plans" class="tab-pane fade">
-                <?php include_once ('php_action/plans.php'); ?>
-            </div>
-            <div id="videos" class="tab-pane fade">
-                <h1>I am Volunteer</h1>
-            </div>
-
         </div>
     </div>
-    <div id="tlkio" data-channel="ReviewAndChat" data-theme="theme--minimal" style="width:250px;height:250px;position: fixed;bottom: 0;right: 0;"></div><script async src="http://tlk.io/embed.js" type="text/javascript"></script>
+    <div id="tlkio" data-channel="ReviewAndChat" data-theme="theme--minimal" style="width:250px;height:250px;position: fixed;bottom: 25px;right: 0;"></div><script async src="http://tlk.io/embed.js" type="text/javascript"></script>
 </div>
+<!-- Trigger the modal with a button -->
+<button style="left: 0; bottom: 0; position: fixed;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Upload the video and share the link with CEQUE</button>
+
 
 </body>
 </html>
