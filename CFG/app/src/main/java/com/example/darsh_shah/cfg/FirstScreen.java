@@ -18,7 +18,7 @@ public class FirstScreen extends AppCompatActivity {
         String check=preferences.getString("Login","");
         if(check.equalsIgnoreCase("login")){
             textView.setText("Directing ....");
-            startActivity(new Intent(FirstScreen.this,LoginActivity.class));
+            //startActivity(new Intent(FirstScreen.this,LoginActivity.class));
 
         }
         else{
