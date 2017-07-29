@@ -127,7 +127,12 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String s) {
-            super.onPostExecute(s);
+
+            if(s.equalsIgnoreCase("hello")){
+                System.out.println("logged in");
+            }else{
+                System.out.print("not logged in");
+            }
         }
     }
 
