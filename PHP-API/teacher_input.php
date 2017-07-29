@@ -66,9 +66,14 @@
                         <div class="clearfix"></div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="file">File:</label>
-                            <div class="col-sm-4">          
-                                <input type="file" class="form-control" id="file" name="file"><br>
-                                <a href="/images/myw3schoolsimage.jpg" download>Download template</a>
+                            <div class="col-sm-4">  
+                            <form onsubmit="postToImgur()" method="post" enctype="multipart/form-data">
+                                Select image to upload:
+                                <input type="file" name="file" id="file">
+                                <input type="submit" value="Upload" name="submit">
+                               <button onclick="postToImgur()">Send</button> 
+                            </form>        
+                            <a href="/images/myw3schoolsimage.jpg" download>Download template</a>
                             </div>
                         </div>
                         <div class="form-group">        
@@ -81,5 +86,9 @@
             </div>
         </div>
     </body>
+
+
+
+
 </html>
 

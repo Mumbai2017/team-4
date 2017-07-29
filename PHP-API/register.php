@@ -275,7 +275,7 @@ function compare_Passwords($field1,$field2){
 function check_customer_exist($mobile,$email,$conn)
 {
  //check if customer exists
- $sql = "select * from Customer where email = '$email'";
+ $sql = "select * from users where email = '$email'";
  $res=$conn->query($sql);
  $statement = $conn->prepare($sql);
  $statement->execute();
@@ -285,7 +285,7 @@ function check_customer_exist($mobile,$email,$conn)
   return $message = " The email entered: " . $email . "  is already registered please choose another email or Log in";
 }
   //check if mobile is available
-$sql="select * from Logon where mobile ='$mobile'";
+$sql="select * from users where mobile ='$mobile'";
 $res=$conn->query($sql);
 
 $statement = $conn->prepare($sql);
