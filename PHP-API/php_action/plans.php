@@ -12,6 +12,9 @@ $subject_in_db = $connect->query($subject);
 
 $plan = "SELECT * FROM plan";
 $plan_in_db = $connect->query($plan);
+
+
+
 ?>
 <html>
 
@@ -65,7 +68,7 @@ $plan_in_db = $connect->query($plan);
 </div>
 
 <div class="row">
-    <div class="col-md-10">
+    <div class="col-md-8">
         <?php
         if($plan_in_db->num_rows > 0){
             while ($row = $plan_in_db->fetch_array()){
@@ -91,6 +94,9 @@ $plan_in_db = $connect->query($plan);
         }
         ?>
     </div>
+
+
+
 </div>
 
 <div class="modal fade" id="viewDocs" tabindex="-1" role="dialog">
