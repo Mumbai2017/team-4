@@ -6,9 +6,9 @@
   
 ### Contributors
 
-* [vedipen](www.github.com/vedipen)  
-* [hanare](www.github.com/harane)  
-* [raviyadav14697](www.github.com/raviyadav14697)  
-* [DevanshiDesai](www.github.com/DevanshiDesai)  
-* [DRshah](www.github.com/DRshah)  
-* [sumeetshahani108](www.github.com/sumeetshahani108)  
+* [vedipen](https://www.github.com/vedipen)  
+* [hanare](https://www.github.com/harane)  
+* [raviyadav14697](https://www.github.com/raviyadav14697)  
+* [DevanshiDesai](https://www.github.com/DevanshiDesai)  
+* [DRshah](https://www.github.com/DRshah)  
+* [sumeetshahani108](https://www.github.com/sumeetshahani108)  
