@@ -22,7 +22,7 @@ public class FirstScreen extends AppCompatActivity {
 
         }
         else{
-            //go directly to second activity
+            startActivity(new Intent(FirstScreen.this,PlanActivity.class));
         }
     }
 }
