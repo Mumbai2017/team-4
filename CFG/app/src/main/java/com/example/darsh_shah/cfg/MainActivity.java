@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
             phone_number=phone_number.trim();
             password=password.trim();
             try{
-            String link = "http://e9639743.ngrok.io/loginCFG.php?phone_number="+phone_number+"&password="+password;
+            String link = "localhost/loginCFG.php?phone_number="+phone_number+"&password="+password;
 
             URL url = new URL(link);
             HttpClient client = new DefaultHttpClient();
