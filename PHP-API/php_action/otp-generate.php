@@ -26,6 +26,7 @@ if($connect->query($sql) == TRUE){
         $valid['success'] = false;
         $valid['messages'] = 'Error';
     }
+    include_once "http://localhost/team-4/team-4/PHP-API/otp-verify.php";
     if($valid['success'] == true){
         header('location: http://localhost/team-4/team-4/PHP-API/otp-verify.php');
     }

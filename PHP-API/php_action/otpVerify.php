@@ -27,7 +27,7 @@ if($result_1->num_rows > 0){
                 $_SESSION['user_name'] = $row['name'];
 
                 if($row['type_of_user'] == 'teacher'){
-                    header('location: http://localhost/team-4/team-4/PHP-API/dashboard.php');
+                    header('location: http://localhost/team-4/team-4/PHP-API/view-plans.php');
                 }else if($row['type_of_user'] == 'admin'){
                     header('location: http://localhost/team-4/team-4/PHP-API/dashboard.php');
                 }
@@ -35,7 +35,7 @@ if($result_1->num_rows > 0){
         }
     }
 }else{
-    echo "Enter the Correct OTP";
+    echo "Enter the Correct OTP"
 }
 
 
