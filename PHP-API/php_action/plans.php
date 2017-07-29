@@ -18,36 +18,7 @@ $plan_in_db = $connect->query($plan);
 ?>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Admin Section</title>
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <!-- bootstrap theme-->
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap-theme.min.css">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
-
-
-    <!-- DataTables -->
-    <link rel="stylesheet" href="../assets/plugins/datatables/jquery.dataTables.min.css">
-
-    <!-- file input -->
-    <link rel="stylesheet" href="../assets/plugins/fileinput/css/fileinput.min.css">
-
-    <!-- jquery -->
-    <script src="../assets/jquery/jquery.min.js"></script>
-    <!-- jquery ui -->
-    <link rel="stylesheet" href="../assets/jquery-ui/jquery-ui.min.css">
-
-    <script src="../assets/jquery-ui/jquery-ui.min.js"></script>
-
-    <!-- bootstrap js -->
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-
-
-</head>
 
 <body>
 <div class="form-group">

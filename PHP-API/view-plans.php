@@ -1,12 +1,13 @@
 <?php
 	session_start();
+	$_SESSION['user_id']=2;
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Admin Section</title>
+    <title>Teacher Section</title>
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -50,8 +51,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        	<a href="https://streamable.com/" target="_blank">Upload Your Work</a>
-            <ul class="nav navbar-nav navbar-right">
+        	<ul class="nav navbar-nav navbar-right">
                 <li class="dropdown" id="navSetting">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="glyphicon glyphicon-user"></i> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -77,7 +77,7 @@
         <div style="margin-top: 1%; background-color: #f8f8f8; padding: 1%">
             <ul class="nav nav-pills nav-stacked mytabs">
 
-                <h4 style="color:#e40046;margin-left:3vw;">Admin Section</h4>
+                <h4 style="color:#e40046;margin-left:3vw;">Teacher Section</h4>
                 <hr style="margin-top:10px;">
                 <li class="active">
                     <a data-toggle="tab" href="#home" aria-expanded="true">
@@ -87,16 +87,9 @@
                 </li>
                 <br>
                 <li>
-                    <a data-toggle="tab" href="#plans" aria-expanded="true">
+                    <a  href="https://www.streamable.com" target="_blank" >
                         <span class="fa fa-user"></span>
-                        &nbsp;&nbsp;Plans
-                    </a>
-                </li>
-                <br>
-                <li>
-                    <a data-toggle="tab" href="#videos" aria-expanded="true">
-                        <span class="fa fa-user"></span>
-                        &nbsp;&nbsp;Videos
+                        &nbsp;&nbsp;Upload Your Work
                     </a>
                 </li>
                 <br>
@@ -125,11 +118,5 @@
 </body>
 </html>
 
-
-<?php
-
-echo $_SESSION['user_id'];
-
-?>
 
 
