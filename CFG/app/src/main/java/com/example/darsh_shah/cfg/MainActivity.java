@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
             phone_number=phone_number.trim();
             password=password.trim();
             try{
-            String link = "http://nahushrai.esy.es/dbit_get_hosp.php?phone_numbner="+phone_number+"&password="+password;
+            String link = "localhost/loginCFG.php?phone_number="+phone_number+"&password="+password;
 
             URL url = new URL(link);
             HttpClient client = new DefaultHttpClient();
