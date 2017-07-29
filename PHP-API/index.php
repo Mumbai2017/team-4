@@ -116,12 +116,13 @@ echo <<<_END
                <button class="submit">Sign In</button>
              </div>
 
-            <div>
+            
+           </fieldset>
+         </form>
+         <div>
                <button><a style="color:white" href="/team-4/PHP-API/register.php" >Register</a></button>
              </div>
-
-           </fieldset>
-         </form> 
+ 
          <div id="message-warning"></div>
          <div id="message-success">
            <i class="icon-ok"></i>Your message was sent, thank you!<br />
