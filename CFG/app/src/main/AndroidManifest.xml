@@ -22,7 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FirstScreen" />
+        <activity android:name=".FirstScreen">
+
+        </activity>
         <activity android:name=".UploadActivity" />
         <activity android:name=".PlanActivity">
 
