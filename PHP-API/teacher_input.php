@@ -66,26 +66,17 @@
                         <div class="clearfix"></div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="file">File:</label>
-<<<<<<< HEAD
-                            <div class="col-sm-4">
 
-                                <input type="file" class="form-control" id="file" name="file"><br>
-                                <a href="/images/myw3schoolsimage.jpg" download>Download template</a>
-=======
                             <div class="col-sm-4">  
-                            <form onsubmit="postToImgur()" method="post" enctype="multipart/form-data">
+                            <form class="form-horizontal" id="submitForm" action="uploadData.php" method="post" enctype="multipart/form-data">
                                 Select image to upload:
-                                <input type="file" name="file" id="file">
-                                <input type="submit" value="Upload" name="submit">
-                               <button onclick="postToImgur()">Send</button> 
+                                <div id="kv-avatar-errors-1" class="center-block" style="display:none;"></div>
+                                <div class="kv-avatar center-block">
+                                    <input type="file" class="form-control" id="planImage" placeholder="Product Name" name="planImage" class="file-loading" style="width:auto;"/>
+                                </div>
+                                <button type="submit" class="btn btn-primary" data-loading-text="Loading..." autocomplete="off"> <i class="glyphicon glyphicon-ok-sign"></i> Save Changes</button>
                             </form>        
-                            <a href="/images/myw3schoolsimage.jpg" download>Download template</a>
->>>>>>> acddc0513629db357c49f3d7d7a6bb22b7a13842
-                            </div>
-                        </div>
-                        <div class="form-group">        
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <input type="submit" value="submit" class="btn btn-primary">Submit</button>
+                            <a href="custom/images/whatsapp_bg.jpg" download>Download template</a>
                             </div>
                         </div>
                     </form>
@@ -96,10 +87,6 @@
         </div>
 
 
-<<<<<<< HEAD
- 
-=======
->>>>>>> acddc0513629db357c49f3d7d7a6bb22b7a13842
     </body>
 
 

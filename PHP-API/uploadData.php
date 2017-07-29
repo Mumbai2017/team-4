@@ -1,26 +1,39 @@
 <?php
-$target_dir = "uploads/";
-$target_file = $target_dir . basename($_FILES["file"]["name"]);
-$uploadOk = 1;
-$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
+include 'php_action/db_connect.php' ;
+session_start();
+$_SESSION['user_id']=2;
+$user_id = 1 ;
+$valid['success'] = array('success' => false, 'messages' => array());
 
-echo $imageFileType."<br/>";
-echo $target_file."<br/>;
+if($_POST){
+    $type = explode('.', $_FILES['planImage']['name']);
 
-// Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["file"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
+    $type = $type[count($type)-1];
+    $url = 'custom/images/'.uniqid(rand()).'.'.$type;
+    print_r($url);
+    $unit = 1;
+    $chat_id = 1;
+    $approved_status = 0;
+    if(in_array($type, array('gif', 'jpg', 'jpeg', 'png', 'JPG', 'GIF', 'JPEG', 'PNG'))) {
+        if(is_uploaded_file($_FILES['planImage']['tmp_name'])) {
+
+            if(move_uploaded_file($_FILES['planImage']['tmp_name'], $url)) {
+                $sql = "INSERT INTO plan(documents, unit_id, chat_id, approved_status, user_id) VALUES ('$url','$unit','$chat_id','$approved_status','$user_id')";
+
+                if($connect->query($sql) === TRUE) {
+                    $valid['success'] = true;
+                    $valid['messages'] = "Successfully Added";
+                } else {
+                    $valid['success'] = false;
+                    $valid['messages'] = "Error while adding the members";
+                }
+
+            }	else {
+                return false;
+            }	// /else
+        } // if
     }
+    $connect->close();
+    echo json_encode($valid);
 }
-
-echo $imageFileType."<br/>";
-echo $target_file;
-echo "hello";
 ?>
-

@@ -25,7 +25,7 @@ if($result_1->num_rows > 0){
             while($row = $query->fetch_array()){
                 $_SESSION['user_id'] = $row['id'];
                 $_SESSION['user_name'] = $row['name'];
-
+                
                 if($row['type_of_user'] == 'teacher'){
                     header('location: http://localhost/team-4/team-4/PHP-API/view-plans.php');
                 }else if($row['type_of_user'] == 'admin'){
@@ -35,7 +35,7 @@ if($result_1->num_rows > 0){
         }
     }
 }else{
-    echo "Enter the Correct OTP"
+    echo "Enter the Correct OTP";
 }
 
 
