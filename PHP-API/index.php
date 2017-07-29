@@ -117,7 +117,7 @@
                 <h1>I am Dashboard</h1>
             </div>
             <div id="plans" class="tab-pane fade">
-
+                <?php include_once ('php_action/plans.php'); ?>
             </div>
             <div id="videos" class="tab-pane fade">
                 <h1>I am Volunteer</h1>
