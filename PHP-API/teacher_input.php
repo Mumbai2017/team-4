@@ -49,7 +49,7 @@
                     <h2>Upload plan</h2>
 
 
-                    <form class="form-horizontal" action="">
+                    <form class="form-horizontal" method="POST"  enctype="multipart/form-data" action="uploadData.php" >
                         <div class="clearfix"></div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="subject">Subject:</label>
@@ -66,6 +66,12 @@
                         <div class="clearfix"></div>
                         <div class="form-group">
                             <label class="control-label col-sm-2" for="file">File:</label>
+<<<<<<< HEAD
+                            <div class="col-sm-4">
+
+                                <input type="file" class="form-control" id="file" name="file"><br>
+                                <a href="/images/myw3schoolsimage.jpg" download>Download template</a>
+=======
                             <div class="col-sm-4">  
                             <form onsubmit="postToImgur()" method="post" enctype="multipart/form-data">
                                 Select image to upload:
@@ -74,11 +80,12 @@
                                <button onclick="postToImgur()">Send</button> 
                             </form>        
                             <a href="/images/myw3schoolsimage.jpg" download>Download template</a>
+>>>>>>> acddc0513629db357c49f3d7d7a6bb22b7a13842
                             </div>
                         </div>
                         <div class="form-group">        
                             <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <input type="submit" value="submit" class="btn btn-primary">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -89,6 +96,10 @@
         </div>
 
 
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> acddc0513629db357c49f3d7d7a6bb22b7a13842
     </body>
 
 
