@@ -70,7 +70,11 @@ $plan_in_db = $connect->query($plan);
                 if($plan_in_db->num_rows > 0){
                     while ($row = $plan_in_db->fetch_array()){
                         ?>
-
+                        <ul class="list-group">
+                            <div class="plan">
+                                <li class="list-group-item" id="<?php echo $row[''] ?>"></li>
+                            </div>
+                        </ul>
                     <?php
                     }
                 }

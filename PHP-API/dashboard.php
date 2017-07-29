@@ -31,8 +31,7 @@
     <script src="assets/jquery/jquery.min.js"></script>
     <!-- jquery ui -->
     <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.min.css">
-    <!-- custom css -->
-    <link rel="stylesheet" href="custom/css/admin-home.css">
+
     <script src="assets/jquery-ui/jquery-ui.min.js"></script>
 
     <!-- bootstrap js -->
