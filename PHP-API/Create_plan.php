@@ -49,7 +49,7 @@
         <div class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
-                <a href="Upload_plan.php"><button id="btn1" type="button" class="btn btn-primary btn-md"> <span class="glyphicon glyphicon-plus"></span>Create a new plan</button></a>
+                <a href="teacher_input.php"><button id="btn1" type="button" class="btn btn-primary btn-md"> <span class="glyphicon glyphicon-plus"></span>Create a new plan</button></a>
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -108,6 +108,7 @@
                         </div>
                     </div>
                 </div>
+        <a href="https://streamable.com/" target="_blank">Upload Your Work</a>
 
 
 
