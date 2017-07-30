@@ -80,6 +80,12 @@
                 <h4 style="color:#e40046;margin-left:3vw;">Teacher Section</h4>
                 <hr style="margin-top:10px;">
                 <li class="active">
+                    <a data-toggle="tab" href="#my-home" aria-expanded="true">
+                        <span class="fa fa-user"></span>
+                        &nbsp;&nbsp;Dashboard
+                    </a>
+                </li>
+                <li>
                     <a data-toggle="tab" href="#home" aria-expanded="true">
                         <span class="fa fa-user"></span>
                         &nbsp;&nbsp;Dashboard
@@ -101,15 +107,18 @@
     <div class="col-lg-10" style="margin-top: 1%; paddingbackground-color: #f8f8f8">
         <div class="tab-content">
             <div id="home" class="tab-pane fade">
-                <h1>I am Dashboard</h1>
+                <?php include 'getPlans.php';   ?>
             </div>
         </div>
     </div>
-    <div id="tlkio" data-channel="ReviewAndChat" data-theme="theme--minimal" style="width:250px;height:250px;position: fixed;bottom: 25px;right: 0;"></div><script async src="http://tlk.io/embed.js" type="text/javascript"></script>
-</div>
-<!-- Trigger the modal with a button -->
+
+
+
+
+    <!-- Trigger the modal with a button -->
 <button style="left: 0; bottom: 0; position: fixed;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Upload the video and share the link with CEQUE</button>
 
+<script src="custom/js/view-plans.js"></script>
 
 </body>
 </html>
