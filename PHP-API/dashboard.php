@@ -109,6 +109,7 @@
             <div id="plans" class="tab-pane fade">
                 <?php include_once ('php_action/plans.php'); ?>
             </div>
+
         </div>
     </div>
 </div>

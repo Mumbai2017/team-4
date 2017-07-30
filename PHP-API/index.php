@@ -2,6 +2,7 @@
 session_start();
 require_once 'php_action/db_connect.php';
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +30,7 @@ require_once 'php_action/db_connect.php';
     <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.min.css">
 
     <script src="assets/jquery-ui/jquery-ui.min.js"></script>
+
 
     <!-- bootstrap js -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -65,25 +67,39 @@ require_once 'php_action/db_connect.php';
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+<div class="container">
+    <div class="row vertical">
+        <div class="col-md-5 col-md-offset-4">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Please Sign in</h3>
+                </div>
+                <div class="panel-body">
 
-<div class="row">
-    <div class="col-lg-4">
+                    <form class="form-horizontal" id="otpForm" action="php_action/otp-generate.php" method="POST">
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="otp" class="control-label">Mobile Number: </label>
+                                <input type="text" class="form-control" id="otp" name="otp" placeholder="Enter the Mobile Number">
+                            </div>
 
-    </div>
-    <div class="col-lg-4">
-        <form class="form-horizontal" id="otpForm" action="php_action/otp-generate.php" method="POST">
-            <div class="form-group">
-                <label for="otp" class="control-label">Mobile Number: </label>
-                <input type="text" class="form-control" id="otp" name="otp" placeholder="Enter the Mobile Number">
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-success" id="submitNumber" data-loading-text="Loading..." autocomplete="off"> <i class="glyphicon glyphicon-ok-sign"></i> Submit </button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- panel-body -->
             </div>
-
-            <button type="submit" class="btn btn-success" id="submitNumber" data-loading-text="Loading..." autocomplete="off"> <i class="glyphicon glyphicon-ok-sign"></i> Submit </button>
-        </form>
+            <!-- /panel -->
+        </div>
+        <!-- /col-md-4 -->
     </div>
-    <div class="col-lg-4">
-
-    </div>
+    <!-- /row -->
 </div>
+
 
 <script src="custom/js/otp-generate.js"></script>
 </body>

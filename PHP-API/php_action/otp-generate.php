@@ -7,31 +7,31 @@
  */
 
 include 'db_connect.php';
+
 if(isset($_POST['otp'])){
     $number = $_POST['otp'];
-}
+    $sql = "SELECT * FROM users WHERE mobile_number=".$number;
 
-$sql = "SELECT * FROM users WHERE mobile_number = ".$number;
 
-if($connect->query($sql) == TRUE){
-    $otp = otpGenerate();
-    sendSms($otp, $number);
-    $valid['success'] = array('success' => false, 'messages' => array());
-    $query = "INSERT INTO otp(`id`,`otp_number`,`mobile_number`) VALUES ('','$otp','$number')   ";
+    if($connect->query($sql) == TRUE){
+        $otp = otpGenerate();
+        sendSms($otp, $number);
+        $valid['success'] = array('success' => false, 'messages' => array());
+        $query = "INSERT INTO otp(`id`,`otp_number`,`mobile_number`) VALUES ('','$otp','$number')";
 
-    if($connect->query($query) === TRUE){
-        $valid['success'] = true;
-        $valid['messages'] = 'Successfully Added';
+        if($connect->query($query) === TRUE){
+            $valid['success'] = true;
+            $valid['messages'] = 'Successfully Added';
+        }else{
+            $valid['success'] = false;
+            $valid['messages'] = 'Error';
+        }
+        if($valid['success'] == true){
+            header('location: http://localhost/team-4/team-4/PHP-API/otp-verify.php');
+        }
     }else{
-        $valid['success'] = false;
-        $valid['messages'] = 'Error';
+        echo "No such Mobile Number in Database";
     }
-    include_once "http://localhost/team-4/team-4/PHP-API/otp-verify.php";
-    if($valid['success'] == true){
-        header('location: http://localhost/team-4/team-4/PHP-API/otp-verify.php');
-    }
-}else{
-    echo "No such Mobile Number in Database";
 }
 //echo $number." ";
 
@@ -76,4 +76,5 @@ function sendSms($otp, $number){
     curl_exec($ch);
 
 }
+
 ?>
