@@ -112,9 +112,7 @@
         </div>
     </div>
 
-    <div id="chat">
-        <div id="tlkio" data-channel="abcd" data-theme="theme--minimal" style="width:250px;height:250px;position: fixed;bottom: 25px;right: 0;"></div><script async src="http://tlk.io/embed.js" type="text/javascript"></script></div>
-    </div>
+
 
 
     <!-- Trigger the modal with a button -->
