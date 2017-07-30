@@ -1,8 +1,7 @@
 <?php
 session_start();
 $id = $_GET['id'];
-$_SESSION['id'] = 2;
-$a_id = $_SESSION['id'];
+$a_id = $_SESSION['user_id'];
 
 $string = "Teacher".$id.$a_id;
 

@@ -1,3 +1,7 @@
+<?php
+include 'php_action/conn.php';
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">

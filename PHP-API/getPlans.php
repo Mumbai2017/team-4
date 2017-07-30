@@ -1,8 +1,7 @@
 <?php
 
 include 'php_action/db_connect.php';
-
-$_SESSION['user_id'] = 1;
+include 'php_action/conn.php';
 $sql = "SELECT * FROM plan WHERE user_id=".$_SESSION['user_id'];
 
 $query = $connect->query($sql);
@@ -14,6 +13,7 @@ $units = array();
 if($query->num_rows > 0){
     while ($row = $query->fetch_array()){
         $id = $row['id'];
+
         ?>
         <div class="row">
             <div class="col-lg-2"></div>
@@ -29,7 +29,23 @@ if($query->num_rows > 0){
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="70"
                                          aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                        <span class="sr-only">70% Complete</span>
+                                        <?php
+                                            if($id % 3 == 0 ){
+                                                ?>
+                                                <span class="sr-only">70% Complete</span>
+                                                <?php
+                                            }
+                                            if($id % 3 == 1 ){
+                                                ?>
+                                                <span class="sr-only">30% Complete</span>
+                                                <?php
+                                            }
+                                            if($id % 3 == 2 ){
+                                                ?>
+                                                <span class="sr-only">50% Complete</span>
+                                                <?php
+                                            }
+                                        ?>
                                     </div>
                                 </div>
                             </div>
