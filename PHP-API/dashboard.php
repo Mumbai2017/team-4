@@ -12,7 +12,6 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 
-
     <!-- DataTables -->
     <link rel="stylesheet" href="assets/plugins/datatables/jquery.dataTables.min.css">
 
@@ -29,9 +28,11 @@
     <!-- bootstrap js -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-
 </head>
 <body>
+<style>
+
+</style>
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->

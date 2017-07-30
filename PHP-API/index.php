@@ -85,7 +85,7 @@ require_once 'php_action/db_connect.php';
 
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-success" id="submitNumber" data-loading-text="Loading..." autocomplete="off"> <i class="glyphicon glyphicon-ok-sign"></i> Submit </button>
+                                    <button style="margin-top: -40px;" type="submit" class="btn btn-success" id="submitNumber" data-loading-text="Loading..." autocomplete="off"> <i class="glyphicon glyphicon-ok-sign"></i> Submit </button>
                                 </div>
                             </div>
                         </fieldset>
