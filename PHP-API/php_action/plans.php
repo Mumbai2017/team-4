@@ -52,7 +52,7 @@ $plan_in_db = $connect->query($plan);
                             <div class="plan">
                                 <li class="list-group-item" id="<?php echo $row['id']?>"><blockquote><p><?php echo $my_row['name']; ?></p><button class="btn btn-default" type="button" style="color:#eb3b60;background-image:url(&quot;none&quot;);background-color:transparent;" data-toggle="modal" data-target="#viewDocs" onclick="viewDoc(<?php echo $row['id'];?>);"><span>View Document</span></button></blockquote>
                                     <button class="btn btn-default" type="button" style="color:#eb3b60;background-image:url(&quot;none&quot;);background-color:transparent;"   onclick="updateStatus(<?php echo $row['id']; ?>);"><i class="glyphicon glyphicon-heart" data-aos="flip-right"></i><span>Approve</span></button>
-                                    <button class="btn btn-default comment" type="button" style="color:#eb3b60;background-image:url(&quot;none&quot;);background-color:transparent;"><i class="glyphicon glyphicon-flash" style="color:#f9d616;"></i><span style="color:#f9d616;">Chat</span></button>
+                                    <a href='php_action/demoChatforAdmin.php?id=<?php echo $my_row['id']; ?>'><button class="btn btn-default comment" type="button" style="color:#eb3b60;background-image:url(&quot;none&quot;);background-color:transparent;"><i class="glyphicon glyphicon-flash" style="color:#f9d616;"></i><span style="color:#f9d616;">Chat</span></button></a>
                                 </li>
                             </div>
                         </ul>
