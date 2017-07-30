@@ -77,6 +77,7 @@ include 'php_action/conn.php';
             </span>
     </button>
     -->
+
     <div class="col-lg-2 mainprof" style="padding: 1%" id="filters" aria-expanded="false">
         <div style="margin-top: 1%; background-color: #f8f8f8; padding: 1%">
             <ul class="nav nav-pills nav-stacked mytabs">
@@ -111,12 +112,42 @@ include 'php_action/conn.php';
                 <h1>I am Dashboard</h1>
             </div>
             <div id="plans" class="tab-pane fade">
+                <form class="navbar-form navbar-left">
+                    <div class="searchbox"><i class="glyphicon glyphicon-search"></i>
+                        <input class="form-control sbox" type="text">
+                        <ul class="list-group autocomplete" style="position:absolute;width:100%; z-index:100">
+                        </ul>
+                    </div>
+                </form>
                 <?php include_once ('php_action/plans.php'); ?>
             </div>
 
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $('.sbox').keyup(function () {
+       $('.autocomplete').html("");
+       $.ajax({
+          type : "GET",
+          url : "php_action/searchQuery.php?query="+$(this).val(),
+          processData : false,
+           contentType: "application/json",
+           data: '',
+           success : function (r) {
+               r = JSON.parse(r);
+               console.log(r);
+               for (var i = 0 ; i < r.length ; i++){
+                   $('.autocomplete').html(
+                       $('.autocomplete').html()+
+                       '<a href="plans.php?name='+r[i].name+'#'+r[i].id+'"><li class="list-group-item"><span>'+r[i].name+'</span></li></a>'
+                   );
+               }
+           }
+       });
+    });
+</script>
 
 </body>
 </html>

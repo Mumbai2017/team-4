@@ -21,6 +21,7 @@ $plan_in_db = $connect->query($plan);
 
 
 <body>
+
 <div class="form-group">
     <label for="subject" class="control-label">SUBJECT</label><br>
     <?php
