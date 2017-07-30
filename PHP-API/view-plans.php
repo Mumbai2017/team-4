@@ -45,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <!-- <a class="navbar-brand" href="#">CEQUE</a> -->
+            <a class="navbar-brand" href="#">CEQUE</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -83,7 +83,7 @@
                     </a>
                 </li>
                 <li>
-                    <a data-toggle="tab" href="#home" aria-expanded="true">
+                    <a class="active" data-toggle="tab" href="#home" aria-expanded="true">
                         <span class="fa fa-user"></span>
                         &nbsp;&nbsp;Dashboard
                     </a>
