@@ -1,6 +1,5 @@
 <?php
-	session_start();
-	$_SESSION['user_id']=2;
+	include 'php_action/conn.php';
 ?>
 
 <!DOCTYPE html>

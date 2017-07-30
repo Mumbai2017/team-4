@@ -1,7 +1,6 @@
 <?php
 session_start();
 $id = $_GET['id'];
-$_SESSION['user_id'] = 1;
 $user_id = $_SESSION['user_id'];
 
 $string = "Teacher".$id.$user_id;

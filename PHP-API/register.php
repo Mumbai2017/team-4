@@ -127,30 +127,30 @@ if($fail == "")
 
             <div class="half">
              <label for="contactName">First Name <span class="required">*</span></label>
-             <input type="text" maxlength="32" name="name" size="35" value="$name" />
+             <input type="text" maxlength="32" name="name" size="35" value="$name" required />
            </div>
 
 
 
            <div>
              <label for="contactEmail">Email <span class="required">*</span></label>
-             <input maxlength="64" size="35" name="email" value="$email" type="email"/>
+             <input maxlength="64" size="35" name="email" value="$email" type="email" required/>
            </div>
 
 
            <div>
              <label for="contactName">Mobile <span class="required">*</span></label>
-             <input maxlength="64" name="mobile" value="$mobile" type="text" size="35"/>
+             <input maxlength="64" name="mobile" value="$mobile" type="text" size="35" required/>
            </div>
 
            <div class="half">
              <label for="contactName">Password <span class="required">*</span></label>
-             <input maxlength="64" type="password" name="password1" value="$password1" size="35"/>
+             <input maxlength="64" type="password" name="password1" value="$password1" size="35" required/>
            </div>
 
            <div class="half pull-right">
              <label  for="contactName">Confirm Password <span class="required">*</span></label>
-             <input input type="password" size="60" maxlength="64" name="password2" value="$password2" size="35"/>
+             <input input type="password" size="60" maxlength="64" name="password2" value="$password2" size="35" required/>
            </div>
 
            <div>
