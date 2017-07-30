@@ -1,12 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Sumeet
- * Date: 20-07-2017
- * Time: 20:29
- */
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

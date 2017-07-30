@@ -79,10 +79,8 @@
 
                 <h4 style="color:#e40046;margin-left:3vw;">Teacher Section</h4>
                 <hr style="margin-top:10px;">
-                <li class="active">
+                <li >
                     <a data-toggle="tab" href="#my-home" aria-expanded="true">
-                        <span class="fa fa-user"></span>
-                        &nbsp;&nbsp;Dashboard
                     </a>
                 </li>
                 <li>

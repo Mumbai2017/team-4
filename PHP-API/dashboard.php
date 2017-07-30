@@ -1,12 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Sumeet
- * Date: 29-07-2017
- * Time: 18:22
- */
 
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -87,14 +79,10 @@
 
                 <h4 style="color:#e40046;margin-left:3vw;">Admin Section</h4>
                 <hr style="margin-top:10px;">
-                <li class="active">
-                    <a data-toggle="tab" href="#home" aria-expanded="true">
-                        <span class="fa fa-user"></span>
-                        &nbsp;&nbsp;Dashboard
-                    </a>
+                <li class="active"> 
                 </li>
                 <br>
-                <li>
+                <li >
                     <a data-toggle="tab" href="#plans" aria-expanded="true">
                         <span class="fa fa-user"></span>
                         &nbsp;&nbsp;Plans
@@ -102,7 +90,7 @@
                 </li>
                 <br>
                 <li>
-                    <a data-toggle="tab" href="#videos" aria-expanded="true">
+                    <a  href="https://www.streamable.com" target="_blank" >
                         <span class="fa fa-user"></span>
                         &nbsp;&nbsp;Videos
                     </a>
@@ -120,9 +108,6 @@
             </div>
             <div id="plans" class="tab-pane fade">
                 <?php include_once ('php_action/plans.php'); ?>
-            </div>
-            <div id="videos" class="tab-pane fade">
-                <h1>I am Volunteer</h1>
             </div>
         </div>
     </div>
