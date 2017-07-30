@@ -7,7 +7,7 @@ function viewDoc(id) {
            dataType : 'json',
            success : function (response) {
                $('#images').append(
-                '<img src="'+ response.documents+'"/>'   
+                '<img src="'+ response.documents+'" class="img-responsive"/>'
                );
            }     
         });
