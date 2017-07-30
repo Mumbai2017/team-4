@@ -78,7 +78,7 @@ require_once 'php_action/db_connect.php';
 
                     <form class="form-horizontal" id="otpForm" action="php_action/otp-generate.php" method="POST">
                         <fieldset>
-                            <div class="form-group">
+                            <divstyle="margin-right: 28px; margin-left: 23px;}" class="form-group">
                                 <label for="otp" class="control-label">Mobile Number: </label>
                                 <input type="text" class="form-control" id="otp" name="otp" placeholder="Enter the Mobile Number">
                             </div>
