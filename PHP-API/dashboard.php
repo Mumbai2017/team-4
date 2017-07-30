@@ -16,7 +16,6 @@ include 'php_action/conn.php';
     <!-- font awesome -->
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 
-
     <!-- DataTables -->
     <link rel="stylesheet" href="assets/plugins/datatables/jquery.dataTables.min.css">
 
@@ -33,9 +32,11 @@ include 'php_action/conn.php';
     <!-- bootstrap js -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-
 </head>
 <body>
+<style>
+
+</style>
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -46,7 +47,7 @@ include 'php_action/conn.php';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <!-- <a class="navbar-brand" href="#">Brand</a> -->
+            <a class="navbar-brand" href="#">CEQUE</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

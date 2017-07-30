@@ -45,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <!-- <a class="navbar-brand" href="#">Brand</a> -->
+            <a class="navbar-brand" href="#">CEQUE</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -83,7 +83,7 @@
                     </a>
                 </li>
                 <li>
-                    <a data-toggle="tab" href="#home" aria-expanded="true">
+                    <a class="active" data-toggle="tab" href="#home" aria-expanded="true">
                         <span class="fa fa-user"></span>
                         &nbsp;&nbsp;Dashboard
                     </a>
@@ -107,6 +107,11 @@
                 <?php include 'getPlans.php';   ?>
             </div>
         </div>
+        <iframe
+    width="350"
+    height="430" style="right: 0; bottom: 0; position: fixed;"
+    src="https://console.api.ai/api-client/demo/embedded/7062f631-8e47-4262-98c3-ccb9a00304cd">
+</iframe>
     </div>
 
 
