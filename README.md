@@ -1,4 +1,4 @@
-#  Code For Good
+# Code For Good
 ## Team-4
 
 ### Getting Started
